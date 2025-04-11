@@ -16,7 +16,7 @@ const Summary = () => import("@/components/Formularios/Summary.vue");
 
 // 📋 Tablas
 const TablaClientes = () => import("@/components/Tablas/TablaClientes.vue");
-const TablaMisClientes = () => import("@/components/tablas/TablaTotalclientes.vue");
+const TablaTotalClientes = () => import("@/components/tablas/TablaTotalclientes.vue");
 
 // 📜 Contratos
 const GeneracionContrato = () => import("@/components/Contratos/generacionContrato.vue");
@@ -44,7 +44,7 @@ const routes = [
             },
 
             // 📋 Sección de clientes
-            { path: "clientes/mis-clientes", component: TablaMisClientes },
+            { path: "clientes/Totalclientes", component: TablaTotalClientes },
             { path: "clientes", component: TablaClientes },
 
             // 📜 Sección de contratos

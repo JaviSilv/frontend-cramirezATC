@@ -33,7 +33,7 @@
 
             <!-- Mostrar "Total Clientes" solo si ERES Jefe -->
             <li v-if="userRole === 1 || userRole === 3  ">
-              <router-link to="/dashboard/clientes/mis-clientes">
+              <router-link to="/dashboard/clientes/Totalclientes">
                 <img :src="icons['simbolo-de-hombre-y-flecha-derecha.png']" alt="Total Clientes" class="icono" />
                 Total Clientes
               </router-link>
