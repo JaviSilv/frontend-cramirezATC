@@ -16,7 +16,7 @@ const Summary = () => import("@/components/Formularios/Summary.vue");
 
 // 📋 Tablas
 const TablaClientes = () => import("@/components/Tablas/TablaClientes.vue");
-const TablaTotalClientes = () => import("@/components/tablas/TablaTotalclientes.vue");
+const TablaTotalClientes = () => import("@/components/Tablas/TablaTotalclientes.vue");
 
 // 📜 Contratos
 const GeneracionContrato = () => import("@/components/Contratos/generacionContrato.vue");
