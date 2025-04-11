@@ -77,7 +77,6 @@
           <tr v-for="(cliente, index) in clientesFiltrados" :key="cliente.ID_Cliente">
             <td>{{ index + 1 }}</td>
             <td>{{ cliente.nombresApellidos }}</td>
-            <td>{{ cliente.nombresApellidos }}</td>
             <td>{{ cliente.direccion }}</td>
             <td>{{ cliente.correoElectronico }}</td>
             <td>{{ cliente.celularCliente }}</td>
@@ -293,4 +292,5 @@ export default {
 
 
 <style scoped>
+/* Aquí tu CSS si necesitas más personalización */
 </style>
